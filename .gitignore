@@ -1,0 +1,8 @@
+/.vs
+/.vs/config/applicationhost.config
+/**/bin/
+/**/obj/
+/package/*
+!packages/repositories.config
+/**/*.suo
+/**/*.csproj.user

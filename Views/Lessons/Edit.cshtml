@@ -1,0 +1,10 @@
+﻿@using laba1_Raspisanie_zanyatiy_.Models;
+@model Lesson
+
+@using (Html.BeginForm("Edit", "Lessons", FormMethod.Post))
+{
+    @Html.ValidationSummary();
+    @Html.EditorForModel()
+    <input type="submit" value="Сохранить" />
+    @Html.ActionLink("Отменить", "Index", "Lessons")
+}
