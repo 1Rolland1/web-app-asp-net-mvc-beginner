@@ -93,6 +93,7 @@ namespace laba1_Raspisanie_zanyatiy_.Controllers
             destination.LessonName = sourse.LessonName;
             destination.SequentialNumber = sourse.SequentialNumber;
             destination.Teacher = sourse.Teacher;
+            destination.Group = sourse.Group;
         }
 
     }
